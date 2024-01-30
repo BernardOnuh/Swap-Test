@@ -15,11 +15,9 @@ import { ThemeProvider } from '@mui/material/styles';
 ReactDOM.render(
   
   <BrowserRouter>
-  <ThemeProvider theme={theme}>
     <React.StrictMode>
       <App />
     </React.StrictMode>
-    </ThemeProvider>
   </BrowserRouter>,
 
   document.getElementById("root")
